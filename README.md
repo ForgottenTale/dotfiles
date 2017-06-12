@@ -18,4 +18,7 @@ stow vim
 stow tmux
 ```
 
-> Tip: You can also do your simlinks manually via the command `ln -s`
+
+> Tip 1: You can also do your simlinks manually via the command `ln -s`  
+> Tip 2: A Gist is available for [my ZSH setup with Terminator](https://gist.github.com/renshuki/3cf3de6e7f00fa7e744a)
+
