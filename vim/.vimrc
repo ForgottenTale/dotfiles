@@ -19,3 +19,6 @@ set mouse=a
 
 " Show hidden files
 let NERDTreeShowHidden=1
+
+" Add Ctrl-P plugin for VIM
+set runtimepath^=~/.vim/bundle/ctrlp.vim
