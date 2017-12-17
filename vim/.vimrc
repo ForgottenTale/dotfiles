@@ -22,3 +22,6 @@ let NERDTreeShowHidden=1
 
 " Add Ctrl-P plugin for VIM
 set runtimepath^=~/.vim/bundle/ctrlp.vim
+
+" Fix Term color for Tmux
+set t_ut=
