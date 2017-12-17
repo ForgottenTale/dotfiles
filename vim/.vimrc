@@ -16,3 +16,6 @@ set number
 
 " Add mouse support
 set mouse=a
+
+" Show hidden files
+let NERDTreeShowHidden=1
