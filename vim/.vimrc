@@ -1,7 +1,12 @@
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
+
+" Start NERDTree
 autocmd vimenter * NERDTree
+
+" Change NERDTree active pane
+autocmd VimEnter * wincmd p
 
 " VIM colorscheme Molokai
 let g:molokai_original = 1
