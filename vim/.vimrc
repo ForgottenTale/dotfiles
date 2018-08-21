@@ -30,3 +30,5 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 " Fix Term color for Tmux
 set t_ut=
+set background=dark
+set t_Co=256
