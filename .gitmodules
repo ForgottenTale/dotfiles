@@ -1,0 +1,3 @@
+[submodule "rbenv/.rbenv"]
+	path = rbenv/.rbenv
+	url = https://github.com/rbenv/rbenv.git
