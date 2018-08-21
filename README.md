@@ -4,7 +4,7 @@ My dotfiles to replicate my dev environment everywhere =)
 
 Clone the repository:  
 
-`git clone https://github.com/renshuki/dotfiles.git ~/.dotfiles`
+`git clone --recurse https://github.com/renshuki/dotfiles.git ~/.dotfiles`
 
 Install [stow](https://www.gnu.org/software/stow/) package to create symlinks automatically:  
 
