@@ -85,6 +85,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+unsetopt beep
 
 eval `dircolors ~/.dir_colors/dircolors`
 
