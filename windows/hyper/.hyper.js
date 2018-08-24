@@ -117,7 +117,7 @@ module.exports = {
   //   `project#1.0.1`
   plugins: [
     "hyperterm-monokai",
-    "hypercwd"
+    // "hypercwd"
   ],
 
   // in development, you can create a directory under
