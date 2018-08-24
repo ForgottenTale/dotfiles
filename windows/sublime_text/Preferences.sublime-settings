@@ -1,0 +1,23 @@
+{
+	"added_words":
+	[
+		"blog"
+	],
+	"atomic_save": false,
+	"dictionary": "Packages/Language - English/en_US.dic",
+	"folder_exclude_patterns":
+	[
+		".asset-cache",
+		".git",
+		"_site",
+		".jekyll-cache"
+	],
+	"font_size": 16,
+	"ignored_packages":
+	[
+		"Markdown",
+		"Vintage"
+	],
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true
+}
