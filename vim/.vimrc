@@ -35,3 +35,7 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 set t_ut=
 set background=dark
 set t_Co=256
+
+" Remove the annoying bell
+set visualbell
+set t_vb=
