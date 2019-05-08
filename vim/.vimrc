@@ -19,6 +19,9 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 " Set line number
 set number
 
+" Tabs configuration
+set tabstop=4
+
 " Add mouse support
 set mouse=a
 
