@@ -31,7 +31,7 @@ elif [ `uname` == "Darwin" ]; then
 	brew intall vim
 	brew install stow
 	brew install zsa
-	brew install tmuxh
+	brew install tmux
 
 	# Make ZSH default shell
 	sudo -s 'echo /usr/local/bin/zsh >> /etc/shells' && chsh -s /usr/local/bin/zsh
