@@ -20,6 +20,9 @@ if [ `uname` == "Linux" ]; then
 	# Make ZSH default shell
 	chsh -s $(which zsh)
 
+	# Init rbenv
+	~/.rbenv/bin/rbenv init
+
 elif [ `uname` == "Darwin" ]; then
 	echo "Running on OSX..."
 
@@ -35,6 +38,9 @@ elif [ `uname` == "Darwin" ]; then
 
 	# Make ZSH default shell
 	sudo -s 'echo /usr/local/bin/zsh >> /etc/shells' && chsh -s /usr/local/bin/zsh
+
+	# Init rbenv
+	~/.rbenv/bin/rbenv init
 
 else
 	echo "OS not detected. Abort!"
